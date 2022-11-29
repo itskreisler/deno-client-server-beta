@@ -1,7 +1,7 @@
 import { React, react, ReactDOM } from "./deps.ts";
-import App from "./App.tsx";
+import App from "./App.jsx";
 
-ReactDOM.createRoot(
+ReactDOM.render(
   <react.StrictMode>
     <App />
   </react.StrictMode>,

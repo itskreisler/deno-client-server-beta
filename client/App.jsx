@@ -1,7 +1,8 @@
 import { React } from "./deps.ts";
 
-function App(): {
+function App() {
   return (
+
     <>
       <link rel={"stylesheet"} href={"./static/css/App.css"} />
       <div className="App">
@@ -12,7 +13,7 @@ function App(): {
             alt="logo"
           />
           <p>
-            Edit <code>App.tsx</code> and save to red.
+            Edit <code>App.tsx</code> and save to reload.
           </p>
           <a
             className="App-link"
@@ -25,6 +26,7 @@ function App(): {
         </header>
       </div>
     </>
+
   );
 }
 

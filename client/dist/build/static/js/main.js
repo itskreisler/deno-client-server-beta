@@ -23695,7 +23695,7 @@ function App() {
         src: "./static/images/logo.svg",
         className: "App-logo",
         alt: "logo"
-    }), react.createElement("p", null, "Edit ", react.createElement("code", null, "App.tsx"), " and save to red."), react.createElement("a", {
+    }), react.createElement("p", null, "Edit ", react.createElement("code", null, "App.tsx"), " and save to reload."), react.createElement("a", {
         className: "App-link",
         href: "https://reactjs.org",
         target: "_blank",
