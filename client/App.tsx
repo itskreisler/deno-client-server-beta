@@ -1,6 +1,6 @@
 import { React } from "./deps.ts";
 
-function App() {
+function App(): {
   return (
     <>
       <link rel={"stylesheet"} href={"./static/css/App.css"} />
