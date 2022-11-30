@@ -23681,7 +23681,7 @@ const mod3 = {
     unstable_renderSubtreeIntoContainer,
     version: version2
 };
-const { default: any , ...rest } = mod;
+const { default: _any , ...rest } = mod;
 const react = mod.default;
 function App() {
     return react.createElement(react.Fragment, null, react.createElement("link", {
@@ -23702,4 +23702,4 @@ function App() {
         rel: "noopener noreferrer"
     }, "Learn React"))));
 }
-mod3.render(react.createElement(rest.StrictMode, null, react.createElement(App, null)), document.getElementById("root"));
+mod3.createRoot(react.createElement(rest.StrictMode, null, react.createElement(App, null)), document.getElementById("root"));
