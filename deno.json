@@ -1,7 +1,7 @@
 {
   "tasks": {
     "start": "deno run -A bot.js",
-    "prod": "sh init.sh",
+    "prod": "sh run.sh",
     "build": "sh build.sh",
     "dev": "deno run --watch -A server.js"
   }
